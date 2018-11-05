@@ -65,7 +65,6 @@ while(True):
     #problem3()
     #problem4()
     problem5()
-    x=0
     #problem6()
     
 

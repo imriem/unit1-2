@@ -1,0 +1,50 @@
+#1
+name = input()
+Base = int(input())
+Length = int(input())
+
+#Name
+print( 'Hello ' + name )
+#Cube
+print( Base * Base * Base / 7.5 )
+#Circle
+print( Base / 2 ** 2 * Length * 3.14 / 5.875 )
+#Rectangle
+print( Base * Base * Length / 7.5 )
+
+#2
+n1 = input()
+n2 = input()
+n3 = input()
+n4 = input()
+gpa1 = int(input())
+gpa2 = int(input())
+gpa3 = int(input())
+gpa4 = int(input())
+
+print (n1)
+print (n2)
+print (n3)
+print (n4)
+print ( gpa1 / 4 + gpa2 / 4 + gpa3 / 4 + gpa4 / 4)
+
+#3
+first = int(input())
+second = int(input())
+print(first,second)
+print(second,first)
+
+#4
+year = int(input())
+if year % 100 == 0:
+    print(year // 100)
+if year % 100 != 0:
+    print(year // 100 + 1)
+    
+#5
+h = int(input())
+a = int(input())
+b = int(input())
+d = a - b 
+f = h / d
+print(f,'days')
